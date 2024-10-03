@@ -1,0 +1,103 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.51)
+}
+body {
+  background-image:url('https://images.unsplash.com/photo-1532598618269-1f8b82e0e0e5?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YXV0b2JhaG58ZW58MHx8MHx8fDA%3D') ;   color: white;
+  text-align: center;
+  background-size: cover;
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.car-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.car-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.car-image {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.car-brand {
+  margin-top: 10px;
+  font-family: 'Arial', sans-serif;
+  font-size: 1.2rem;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: lightblue;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #007BFF;
+  color: white;
+}
+body {
+  background-color: #2e2e2e49;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+  font-size: 2rem;
+}
+
+form {
+  display: inline-block;
+  text-align: left;
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+  font-family: Arial, sans-serif;
+}
+
+input, select {
+  margin-left: 10px;
+  padding: 5px;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: lightblue;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #007BFF;
+  color: white;
+}

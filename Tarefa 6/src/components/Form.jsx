@@ -10,9 +10,9 @@ function Form() {
   });
 
   const carOptions = {
-    Alemã: ['BMW M3', 'Mercedes-Benz C63', 'Audi RS6'],
-    Italiana: ['Ferrari 488', 'Lamborghini Huracan', 'Maserati Ghibli'],
-    Japonesa: ['Nissan GTR', 'Supra Mk4', 'Mazda RX-7 w/Bodykit Veilside']
+    Alemã: ['Porsche 918 Spyder', 'Mercedes AMG ONE', 'Audi R8 V10'],
+    Italiana: ['Ferrari LaFerrari', 'Lamborghini Aventador SVJ', 'Pagani Huayra'],
+    Japonesa: ['Nissan GT-R R35 Nismo', 'Supra MK4', 'Mazda RX-7 w/ Bodykit Veilside']
   };
 
   const handleChange = (event) => {
